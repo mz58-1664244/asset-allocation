@@ -94,6 +94,3 @@ risk_budget = np.array([1. / 5] * 5)
 initial_weights = np.array([1. / 5] * 5)
 
 asset_allocation = _get_risk_parity_weights(cov_matrix, risk_budget, initial_weights)
-
-
-
